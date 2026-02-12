@@ -8,7 +8,7 @@ def scrape_jobs(role):
     """
     role_query = role.replace(" ", "+")
     # Тестовый URL, заменим на реальный сайт позже
-    url = f"https://hh.ru/jobs?q={role_query}"
+    url = f"https://example.com/jobs?q={role_query}"
 
     response = requests.get(url)
     if response.status_code != 200:
