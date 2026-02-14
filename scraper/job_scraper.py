@@ -11,10 +11,14 @@ def scrape_jobs(role):
     role_query = role.replace(" ", "+")
 
     # тестовый URL (позже заменим на реальный сайт)
-    url = f"https://example.com/jobs?q={role_query}"
+    url = f"https://hh.ru/search/vacancy?text={role_query}"
+
+    # Создаем нашего User Агента чтобы проходить блокировку и получать нужную страницу при запросе
+    headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36"}    
 
     # отправляем HTTP запрос
-    response = requests.get(url, verify = False)
+    response = requests.get(url, headers = headers)
+    print(response.text[:2000])
 
     # проверяем успешность запроса
     if response.status_code != 200:
