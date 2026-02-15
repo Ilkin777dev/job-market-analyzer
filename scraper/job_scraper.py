@@ -18,7 +18,7 @@ def scrape_jobs(role):
 
     # отправляем HTTP запрос
     response = requests.get(url, headers = headers)
-    print(response.text)
+    # print(response.text)
 
     # проверяем успешность запроса
     if response.status_code != 200:
@@ -30,7 +30,7 @@ def scrape_jobs(role):
 
     # ищем вакансии (пример структуры сайта)
     jobs = soup.find_all("div", attrs={"data-qa": "vacancy-serp__vacancy"})
-    print("Found jobs:", len(jobs))
+    # print("Found jobs:", len(jobs))
 
     # записываем данные в CSV
     with open("jobs.csv", "w", newline="", encoding="utf-8") as f:
@@ -38,8 +38,20 @@ def scrape_jobs(role):
         writer.writerow(["Title", "Salary", "Company"])
 
         for job in jobs:
-            title = job.find("span", attrs={"data-qa": "serp-item__title-text"}).text.strip()
-            writer.writerow([title, salary_span, ""])
+            title = job.find("span", attrs={"data-qa": "serp-item__title-text"})
+            title = title.text.strip() if title else "None"
+
+            salary = "No salary"
+            for span in job.find_all("span"):
+                text = span.get_text()
+                if "₽" in text or "$" in text or "₼" in text:
+                    salary = text.strip()
+                    break
+
+            company = job.find("span", attrs={"data-qa": "vacancy-serp__vacancy-employer-text"})
+            company = company.text.strip() if company else "None"
+
+            writer.writerow([title, salary, company])
 
             # title = job.text.strip()
             # sallary = job.text
