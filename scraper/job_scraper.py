@@ -29,17 +29,21 @@ def scrape_jobs(role):
     soup = BeautifulSoup(response.text, "html.parser")
 
     # ищем вакансии (пример структуры сайта)
-    jobs = soup.find_all("a", attrs={"data-qa": "serp-item__title"})
+    jobs = soup.find_all("div", attrs={"data-qa": "vacancy-serp__vacancy"})
     print("Found jobs:", len(jobs))
 
     # записываем данные в CSV
     with open("jobs.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["Title", "Description"])
+        writer.writerow(["Title", "Salary", "Company"])
 
         for job in jobs:
-            title = job.text.strip()
-            writer.writerow([title, ""])
+            title = job.find("span", attrs={"data-qa": "serp-item__title-text"}).text.strip()
+            writer.writerow([title, salary_span, ""])
+
+            # title = job.text.strip()
+            # sallary = job.text
+            # writer.writerow([title, ""])
             # desc = job.find("p").text.strip()
             # writer.writerow([title, desc])
 
