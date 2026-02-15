@@ -18,7 +18,7 @@ def scrape_jobs(role):
 
     # отправляем HTTP запрос
     response = requests.get(url, headers = headers)
-    print(response.text[:2000])
+    print(response.text)
 
     # проверяем успешность запроса
     if response.status_code != 200:
@@ -29,7 +29,7 @@ def scrape_jobs(role):
     soup = BeautifulSoup(response.text, "html.parser")
 
     # ищем вакансии (пример структуры сайта)
-    jobs = soup.find_all("div", class_="job-card")
+    jobs = soup.find_all("a", attrs={"data-qa": "serp-item__title"})
     print("Found jobs:", len(jobs))
 
     # записываем данные в CSV
@@ -38,8 +38,9 @@ def scrape_jobs(role):
         writer.writerow(["Title", "Description"])
 
         for job in jobs:
-            title = job.find("h2").text.strip()
-            desc = job.find("p").text.strip()
-            writer.writerow([title, desc])
+            title = job.text.strip()
+            writer.writerow([title, ""])
+            # desc = job.find("p").text.strip()
+            # writer.writerow([title, desc])
 
     print(f"Найдено {len(jobs)} вакансий. Данные сохранены в jobs.csv")
