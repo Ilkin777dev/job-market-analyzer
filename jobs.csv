@@ -1,18 +1,61 @@
-Title,Salary,Company
-Senior Backend Python Engineer,"2 000 – 3 000 $ за месяц, до вычета налогов",KARIMBERDIYEV ALIJON TOJIDDIN O‘G‘LI
-Middle+ Backend-разработчик (Python/FastAPI),"200 000 – 300 000 ₽ за месяц, на руки",ООО Киго
-Python Developer,No salary,Team.Inno / Фабрика инноваций и решений
-Python разработчик,"от 149 000 ₽ за месяц, на руки",ООО МОЛЛ
-Senior Python developer,"3 000 – 3 500 $ за месяц, на руки",Кадровое агентство Алексея Сухорукова
-Software Developer Python,"100 000 – 220 000 ₽ за месяц, на руки",ООО ВЕБ Инфраструктура
-Python разработчик,No salary,КРОК
-Python разработчик (Senior),No salary,АО Международный Научно-Технологический Центр Миэт
-Python Backend Developer (Middle),No salary,START
-Разработчик Python (Middle),"110 000 – 150 000 ₽ за месяц, на руки",ООО Единая Информационная Система ЖКХ
-Middle+ Python-разработчик,"180 000 – 230 000 ₽ за месяц, до вычета налогов",ИП Шатаев Андрей Васильевич
-Python Developer (Infrastructure),No salary,Леста Игры
-Python-разработчик,No salary,ООО UZINFOCOM
-Python разработчик middle,"от 120 000 ₽ за месяц, на руки",AppEvent
-Senior Python developer,No salary,Lamoda Tech
-Python backend (FastAPI) разработчик,No salary,ООО АМИКОН
-Python engineer/Python-разработчик (AI GEN Team),No salary,EWA Learn Languages
+Title,Company,Salary
+Тим-лид / Ведущий инженер SIEM-систем,ЕС-лизинг,"400 000 – 450 000 ₽ за месяц, до вычета налогов"
+Старший аналитик,ООО АВП РУС,No salary
+QA Engineer (Manual),ООО АФЛТ-Системс,No salary
+"Backend-разработчик (C++, Python, Java/Kotlin, Go)",Яндекс,No salary
+Backend-разработчик,ООО Кибертех,No salary
+Тестировщик ПО,Inline Telecom Solutions,"140 000 – 170 000 ₽ за месяц, на руки"
+Инженер по тестированию ПО,Логика молока. Офис,No salary
+Тестировщик Naimus.Ai,ООО АЙФЭЛЛ,"до 180 000 ₽ за месяц, на руки"
+Frontend-разработчик,ООО Мультирезерв,"100 000 – 150 000 ₽ за месяц, на руки"
+Программист (Python разработчик junior),Телематика. Робототехника,"136 500 – 190 000 ₽ за месяц, до вычета налогов"
+"Заместитель начальника инспекции Департамента аудита образования, науки и инноваций",Счетная палата Российской Федерации,"от 210 000 ₽ за месяц, до вычета налогов"
+"Программист Python, Компьютерное зрение, Машинное обучение",Иксван,No salary
+Frontend-разработчик,ООО ЦУГАМ,No salary
+Data Engineer,Johnson & Johnson,No salary
+Backend-разработчик,ООО Авиационные Интерьеры,No salary
+Python Developer,ISD Parking Solutions,"140 000 – 160 000 ₽ за месяц, на руки"
+QA Engineer / Тестировщик,Ventra,No salary
+Middle QA инженер,ООО Фитмост,No salary
+Data Analyst,Johnson & Johnson,No salary
+Продуктовый аналитик (Стажер),Купер Развитие,No salary
+Инженер по тестированию (Fullstack QA),Нетбелл,No salary
+Python разработчик (Django / Data / Web),ООО Маркетинг Точнее,No salary
+Младший аналитик данных,ИП Панина Анастасия Александровна,"от 80 000 ₽ за месяц, до вычета налогов"
+BI Data Engineer,Лаборатория Касперского,No salary
+Middle backend developer,SHiFT AM,"от 300 000 ₽ за месяц, до вычета налогов"
+Backend-разработчик,ООО Инженерный центр Автоматизированные системы контроля,No salary
+DevOps-инженер,СК Ренессанс Жизнь,No salary
+Аналитик данных,АО Группа страховых компаний Югория,No salary
+Go Developer,ООО Ласт Левел,No salary
+Manual QA,Дартс рекрутинг сервисез,No salary
+Тестировщик ( QA Engineer ),Компания 05.ру,"50 000 – 80 000 ₽ за месяц, на руки"
+Разработчик JavaScript (frontend),АО Промышленные инновации,No salary
+Стажер группы анализа данных,ООО АТОН,No salary
+Аналитик данных,ООО Айтиспортс,"70 000 – 100 000 ₽ за месяц, на руки"
+Python-разработчик,Прошин Евгений,No salary
+Тестировщик,ИП Медников Николай Владимирович,"от 250 000 ₽ за месяц, до вычета налогов"
+Менеджер сервисного отдела,ООО Территория кадров,"150 000 ₽ за месяц, до вычета налогов"
+Младший аналитик финансового департамента,Knauf,No salary
+Senior Python Developer,Лучи,No salary
+Python-разработчик CTO,ООО Робита,No salary
+Продуктовый аналитик (Junior),ВкусВилл. Офис,"до 150 000 ₽ за месяц, на руки"
+Стажёр Python-разработчик,Игроник,No salary
+Java-разработчик в Core-команду,Koronatech,No salary
+Аналитик геоданных,БЮРО 1440,No salary
+Python разработчик,Fortech,"от 180 000 ₽ за месяц, до вычета налогов"
+Продуктовый аналитик в Kolesa.kz,АО Kolesa (АО Колеса),No salary
+Junior Product Analyst,Sputnik8,No salary
+Специалист по тестированию / QA Engineer,АО НТЦ ЕЭС Информационные Комплексы,"до 180 000 ₽ за месяц, до вычета налогов"
+Специалист по автоматизации бизнеса,ООО Хайлер,"от 100 000 ₽ за месяц, на руки"
+Middle\Senior Python Developer,ООО ДелоТех,No salary
+Senior Frontend разработчик (React),КРОК,No salary
+Quantitative Derivatives Trader,ООО ПИПЛ КЭПИТАЛ,"от 250 000 ₽ за месяц, до вычета налогов"
+AI/ML-инженер,ООО Эстейт Sezar Group,No salary
+Тестировщик ИИ бота,ООО НДК,No salary
+Junior Python Backend Developer/Python-разработчик,ИП Крайчик Георгий Ильич,"60 000 – 120 000 ₽ за месяц, до вычета налогов"
+Data Engineer,ООО МКК Финмолл,"от 150 000 ₽ за месяц, до вычета налогов"
+Junior Data Analyst / Data Analyst,WhoIsBlogger (WIB),"от 70 000 ₽ за месяц, на руки"
+Аналитик данных / Data Analyst,ТОО Recrutoman,No salary
+Системный администратор Linux,Secunda,No salary
+Научный сотрудник,АО Корпорация Комета,"от 180 000 ₽ за месяц, до вычета налогов"
