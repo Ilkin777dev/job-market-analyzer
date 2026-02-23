@@ -1,61 +1,25 @@
-Title,Company,Minimum Salary in ₽,Maximum Salary in ₽
-Аналитик данных,ООО Совкомбанк Технологии,,
-Manual / Automation QA Engineer (Python),ООО Валун Софт,,
-Специалист по обработке документов,RedLab,65000,80000
-Младший аналитик,ООО ФРОГ,,
-Инженер-тестировщик,Астрал-Софт,,
-Ведущий программист Python (внутренняя разработка),Postgres Professional,,
-Специалист по анализу и отчетности/BI Analyst,АльфаСтрахование. Бэкофис,,
-Backend-разработчик,ООО Авиационные Интерьеры,,
-Стажер DevOps,AGIMA,,
-Аналитик-стажёр,Агро-Альянс,92000,92000
-Ведущий тестировщик,101 Интернет,,
-"Junior Программист (Боты, Mini-Apps)",ООО ПОСМ.РЦ.,100000,120000
-QA manual (backend/frontend/mobile),ООО ФАЙВДЖЕН,120000,120000
-Стажер в отдел аналитики,Игроник,,
-Аналитик,ТОО Freedom Telecom Operations,,
-Системный аналитик,ООО РостДжоб,245000,246000
-Junior разработчик ИИ,Гортис Софт Лаб,80000,110000
-Тестировщик ПО (РЗ и ПА),ООО Прософт-Системы,,
-Test Engineer manual (LTE),YADRO,,
-Manual QA тестировщик,"МАГНИТ, Розничная сеть. IT",,
-Middle+ Python-разработчик,ИП Шатаев Андрей Васильевич,180000,230000
-Data Analyst,MaxLine,,
-Junior DevOps engineer,ООО Байкалтим,110000,150000
-Технический директор/Директор по разработке,ПАО Ростелеком,,
-Middle backend developer,SHiFT AM,300000,300000
-Начинающий аналитик,Межрегиональное Управление Федерального Казначейства по Централизованной Обработке Данных,50000,50000
-Backend-разработчик (Python),ООО Кука Тех,,
-Специалист по тестированию (QA),ООО АВ Софт,120000,150000
-Программист (Python разработчик junior),Телематика. Робототехника,136500,190000
-"Специалист по HR, развитию человеческого капитала и повышению операционной эффективности",ГУ O‘ZBEKISTON RESPUBLIKASI MILLIY STATISTIKA QO‘MITASI,,
-Специалист по работе с базой данных,АО Страховая Медицинская компания Астрамед-МС,80000,100000
-Senior Golang Developer,ООО НООСФЕРА,,
-Frontend-разработчик,ООО ЦУГАМ,,
-Маркетинговый аналитик,Рокетбанк,,
-"Заместитель начальника инспекции Департамента аудита образования, науки и инноваций",Счетная палата Российской Федерации,210000,210000
-QA Engineer (Manual),ООО АФЛТ-Системс,,
-Руководитель отдела тестирования,Finbridge,,
-"Операционный аналитик (в Бильбао, Испания)",Artificial Seed,,
-Middle Python Developer,АО ТаймВэб,150000,250000
-Senior Python Developer,ЗАО 1С,,
-"Компьютерное зрение, Машинное обучение, ML, VC",Иксван,,
-Стажер дата/BI аналитик,Циан,100000,100000
-Аналитик данных/Data Analyst,RIS group,,
-QA - тестировщик,АО Hayot birja,800,1000
-Системный аналитик,ООО Финтехробот,,
-Python Developer / Backend (Middle+),VICTORY group,140000,220000
-Data Engineer/Дата инженер (стажер),Aston,1000,1300
-Senior Java Developer (+TS),DatsTeam,,
-Тестировщик,ООО Новейшие Технологии ЛС,170000,170000
-Python-разработчик,ООО БИЗНЕС КОННЕКТ,,
-Python Developer middle,KEDOO Entertainment,,
-AI Engineer,ООО Секвойя Сервис,150000,200000
-Data analyst,Kaspi.kz,,
-QA Engineer Middle,Employcity,,
-ETL-разработчик,"Ак Барс Банк, ИТ",,
-"Java, python developer",ООО Клауд Ком,,
-Junior DevOps,IT_One,,
-Аналитик данных (Yandex DataLens / Power BI),UPMARKET,,
-Junior Backend разработчик,Your CodeReview,80000,80000
-Тестировщик Naimus.Ai,ООО АЙФЭЛЛ,180000,180000
+Title,Company,Minimum Salary in ₽,Maximum Salary in ₽,Location,Link
+Программист cv,АО Интеллект Машин,270000,270000,Москва,https://hh.ru/vacancy/130653144?query=python&hhtmFrom=vacancy_search_list
+Тестировщик (Web+mobile),SakhPost,40000,60000,Южно-Сахалинск,https://hh.ru/vacancy/130667995?query=python&hhtmFrom=vacancy_search_list
+Специалист по обработке документов,RedLab,65000,80000,"городской округ Волгоград, р-н Центральный",https://hh.ru/vacancy/130617296?query=python&hhtmFrom=vacancy_search_list
+"Junior Программист (Боты, Mini-Apps)",ООО ПОСМ.РЦ.,100000,120000,Москва,https://hh.ru/vacancy/130570693?query=python&hhtmFrom=vacancy_search_list
+Специалист по тестированию (QA),ООО АВ Софт,120000,150000,Москва,https://hh.ru/vacancy/130395811?query=python&hhtmFrom=vacancy_search_list
+Аналитик данных,ООО Такси Шоколад,100000,120000,Москва,https://hh.ru/vacancy/130667198?query=python&hhtmFrom=vacancy_search_list
+Senior QA Engineer,GO Digital,150000,220000,Иннополис,https://hh.ru/vacancy/130666636?query=python&hhtmFrom=vacancy_search_list
+"AI/ML engineer (Балашиха, Железнодорожный)",JFoRecruitment,200000,300000,Москва,https://hh.ru/vacancy/130370236?query=python&hhtmFrom=vacancy_search_list
+Аналитик-стажёр,Агро-Альянс,92000,92000,Санкт-Петербург,https://hh.ru/vacancy/130603358?query=python&hhtmFrom=vacancy_search_list
+Junior - разработчик систем,GRUSHKA,80000,200000,Москва,https://hh.ru/vacancy/130642229?query=python&hhtmFrom=vacancy_search_list
+Системный инженер Linux / Python разработчик,VPNM (Тихонов Денис Олегович),120000,500000,Москва,https://hh.ru/vacancy/130663974?query=python&hhtmFrom=vacancy_search_list
+Менеджер продукта,ROSSKO,320000,400000,Москва,https://hh.ru/vacancy/130558559?query=python&hhtmFrom=vacancy_search_list
+Тестировщик ( QA Engineer ),Компания 05.ру,80000,80000,"Махачкала, проспект Имама Шамиля, 5",https://hh.ru/vacancy/130346389?query=python&hhtmFrom=vacancy_search_list
+Junior Backend разработчик,Your CodeReview,80000,80000,Москва,https://hh.ru/vacancy/130316210?query=python&hhtmFrom=vacancy_search_list
+Программист backend Python,АО НПЦ СпецЭлектронСистемы,250000,300000,Москва,https://hh.ru/vacancy/130483244?query=python&hhtmFrom=vacancy_search_list
+Junior Python разработчик,hitalent,70000,110000,Москва,https://hh.ru/vacancy/130511955?query=python&hhtmFrom=vacancy_search_list
+Backend-разработчик (Python / FastAPI / Telegram Bot),ООО Милет Фэшн Групп,50000,75000,Брянск,https://hh.ru/vacancy/130480643?query=python&hhtmFrom=vacancy_search_list
+Python-разработчик,Хазиев Карим Рашитович,40000,1000000,Казань,https://hh.ru/vacancy/130662638?query=python&hhtmFrom=vacancy_search_list
+Инженер-тестировщик,ООО Тагра,100000,100000,Москва,https://hh.ru/vacancy/130292959?query=python&hhtmFrom=vacancy_search_list
+ML специалист,ПАО Совкомбанк,120000,120000,Москва,https://hh.ru/vacancy/130647296?query=python&hhtmFrom=vacancy_search_list
+Ведущий тестировщик,101 Интернет,100000,100000,Москва,https://hh.ru/vacancy/130656509?query=python&hhtmFrom=vacancy_search_list
+Middle Python Developer,АО ТаймВэб,150000,250000,Санкт-Петербург,https://hh.ru/vacancy/130608572?query=python&hhtmFrom=vacancy_search_list
+Trainee/Intern/Junior Python backend developer,Рекруто,20000,40000,Санкт-Петербург,https://hh.ru/vacancy/130450814?query=python&hhtmFrom=vacancy_search_list
+Аналитик данных,ООО ПромоДата,90000,110000,Москва,https://hh.ru/vacancy/130647365?query=python&hhtmFrom=vacancy_search_list
