@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import re
+from database.db_manager import create_table, insert_all_jobs
 from scraper.utils import extract_salary_range
 from scraper.parser import parse_job_card
 from scraper.filters import filter_by_min_salary
@@ -58,4 +59,7 @@ def scrape_jobs(role, pages, min_salary=None):
                 i["link"]
             ])
 
-    print(f"Saved: {len(all_jobs)} vacancies into jobs.csv")
+    # Adding data from all_jobes variable into the db
+    create_table()
+    insert_all_jobs(all_jobs)
+    print(f"Saved: {len(all_jobs)} vacancies into jobs.csv, also added all the data to the DB")
